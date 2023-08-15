@@ -383,10 +383,10 @@ async def get_shortlink(link):
         https = "https"
         link = link.replace("http", https)
 
-    url = f'{URL_SHORTENR_WEBSITE}/api'
+    url = f'https://Easysky.in/api'
     params = {'token': URL_SHORTNER_WEBSITE_API,
               'link': link,
-              'format': 'json'
+             
               }
 
     try:
@@ -401,4 +401,4 @@ async def get_shortlink(link):
 
     except Exception as e:
         logger.error(e)
-        return f'{URL_SHORTNER_WEBSITE_API}&link={link}'
+        return f'{URL_SHORTENR_WEBSITE}/api?api={URL_SHORTNER_WEBSITE_API}&link={link}'
