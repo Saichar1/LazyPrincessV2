@@ -26,7 +26,7 @@ async def start(client, message):
                 InlineKeyboardButton('🔔 BOT Updates 🤖', url='https://telegram.me/LazyDeveloper')
             ],
             [
-                InlineKeyboardButton('⚡ Movie Updates ⚡', url=f"https://t.me/vs_Files_Mx_player"),
+                InlineKeyboardButton('⚡ Main Channel ⚡', url=f"https://t.me/Telugu_Movies_999"),
             ],
             [
                 InlineKeyboardButton(text=DOWNLOAD_TEXT_NAME,url=DOWNLOAD_TEXT_URL)
@@ -47,7 +47,7 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('➕↖️ Add Me To Your Groups ↗️➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('⚡ Movie Updates ⚡', url=f"https://t.me/vs_Files_Mx_player"),
+            InlineKeyboardButton('⚡ Main Channel ⚡', url=f"https://t.me/Telugu_Movies_999"),
             InlineKeyboardButton('🔔 BOT Updates 🤖', url='https://t.me/LazyDeveloper')
             ],[
              InlineKeyboardButton('🙆🏻 Help 🦾', callback_data='help'),
@@ -93,7 +93,7 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('➕↖️ Add Me To Your Groups ↗️➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('⚡ Movie Updates ⚡', url=f"https://t.me/vs_Files_Mx_player"),
+            InlineKeyboardButton('⚡ Main Channel ⚡', url=f"https://t.me/Telugu_Movies_999"),
             InlineKeyboardButton('🔔 BOT Updates 🤖', url='https://t.me/LazyDeveloper')
             ],[
              InlineKeyboardButton('🙆🏻 Help 🦾', callback_data='help'),
